@@ -1,11 +1,10 @@
 terraform {
   backend "remote" {
-    organization = "my-org"
-    hostname = "app.terraform.io"
+    organization = "example_corp"
+
     workspaces {
-      prefix = "my-org-"
+      name = "my-app-prod"
     }
-    token = "Wq73jtM5at6PEg.atlasv1.21GLHd1bk0Gt7TMuAI6Kj70mEw7CvB7wL6Re2nljIyycm6hiIuyOCAB87iMxEDyFeYk"
   }
 }
 
