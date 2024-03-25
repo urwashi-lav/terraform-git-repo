@@ -5,6 +5,6 @@ provider "aws" {
 ~
 provider "aws" {
   alias = "ap-south-1b"
-  region =  "ap-south-1b"
+  region =  "ap-south-1"
  }
 
