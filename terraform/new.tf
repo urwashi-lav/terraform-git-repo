@@ -1,13 +1,3 @@
-resource "aws_instance" "web" {
-  ami           = var.aws_ami
-  instance_type = var.instance_type
-  provider = "aws.us-east-1a"
-
-  tags = {
-    Name = "web"
-  }
-}
-
 resource "aws_instance" "dev" {
   ami           = var.aws_ami
   instance_type = var.instance_type
