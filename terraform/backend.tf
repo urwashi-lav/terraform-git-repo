@@ -1,10 +1,10 @@
-terraform {
-  backend "remote" {
-    organization = "example_corp"
+# terraform {
+#  backend "remote" {
+#    organization = "example_corp"
 
-    workspaces {
-      name = "my-app-prod"
-    }
-  }
-}
+#   workspaces {
+#      name = "my-app-prod"
+#    }
+#  }
+#}
 
