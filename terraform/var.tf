@@ -12,6 +12,6 @@ variable "instance_type" {
 # Define an output variable to expose the public IP address of the EC2 instance
 output "public_ip" {
   description = "Public IP address of the EC2 instance"
-  value       = aws_instance.dev_instance.public_ip
+  value       = aws_instance.dev.public_ip
 }
 
